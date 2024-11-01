@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003A">
+  <Instances>
+    <I name="region_Residential_EP17World" schema="Region" type="Object">
+      <L name="compatible_venues" />
+      <L name="gallery_download_venue_map" />
+      <T name="region_currency_bucks_type">0</T>
+      <T name="travel_group_build_disabled_tooltip">0x90D4AD08</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Region" schema_hash="0x9C9A82C4">
+      <Columns>
+        <Column name="compatible_venues" type="Vector" flags="0x00000000" />
+        <Column name="gallery_download_venue_map" type="Vector" flags="0x00000000" />
+        <Column name="region_currency_bucks_type" type="Int64" flags="0x00000000" />
+        <Column name="travel_group_build_disabled_tooltip" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>
